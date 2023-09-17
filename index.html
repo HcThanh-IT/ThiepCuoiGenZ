@@ -738,18 +738,21 @@
                             <h4>Newsletter</h4>
                             <p>Stay updated with our latest trends</p>
                             <div class="footer__contact">
-                                <form action="https://formsubmit.co/761598e1273d3ad8bb0136f447a67ec0 " method="post">
-                                    <div class="input__contact">
-                                        <input type="text" name="name" required>
-                                        <input type="email" class="form-control" name="email" id="Email"
-                                            placeholder="Enter Email Address" required>
-                                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-                                        <div class="input__contact--btn">
-                                            <button type="submit" class="btn">
-                                                <span>Send</span>
-                                            </button>
-                                        </div>
+                                <form action="https://formsubmit.co/f726d31f81bb8168e115188cb1d149b9 " method="POST" id=" waterform">
+                                    <div class="formgroup" id="name-form">
+                                        <label for="name">Họ và Tên*</label>
+                                        <input spellcheck="false" type="text" id="name" name="Họ và Tên" />
                                     </div>
+                                    <div class="formgroup" id="email-form">
+                                        <label for="email">E-mail*</label>
+                                        <input spellcheck="false" type="email" id="email" name="E-mail" />
+                                    </div>
+                                    <div class="formgroup" id="message-form">
+                                        <label for="message">Lời Nhắn</label>
+                                        <textarea spellcheck="false" id="message" name="Lời nhắn"></textarea>
+                                    </div>
+                                    <button type="submit">Gửi ngay cho tôi</button>
+                                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/sendmail.html">
                                 </form>
                             </div>
                         </div>
